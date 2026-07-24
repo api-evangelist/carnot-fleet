@@ -1,7 +1,13 @@
 aid: carnot-fleet
 name: Carnot Fleet
-description: Carnot Fleet is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Carnot Fleet (Carnotfleet) is a Seoul-based cold-chain technology company that converts
+  non-refrigerated vehicles into temperature-controlled units in under 30 minutes using modular
+  insulation panels and proprietary solid-state thermoelectric heat pumps, spanning frozen, chilled,
+  and ambient ranges with humidity control. Its Adaptive Thermal Control System (ATCS) is an AI-based
+  autonomous control platform delivering cloud-connected temperature monitoring at 10-second intervals.
+  Carnot Fleet surfaces its capabilities through the CF Mobile Application, the CF Portal, and CF APIs
+  that let customers integrate the ATCS into existing logistics solutions to detect, analyze, prevent,
+  and discover cold-chain data points and reduce post-harvest to pre-retail loss across the supply chain.
 url: https://raw.githubusercontent.com/api-evangelist/carnot-fleet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://carnotfleet.com/CarnotFleet_opengraph.jpg
 tags:
 - Company
+- Cold Chain
+- Logistics
+- Supply Chain
+- Refrigeration
+- Temperature Monitoring
+- IoT
+- Fleet
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://carnotfleet.com
+- type: TermsOfService
+  url: https://carnotfleet.com/termsofuse.html
+- type: PrivacyPolicy
+  url: https://carnotfleet.com/privacy.html
+- type: GitHubOrganization
+  url: https://github.com/carnotfleet
+- type: DomainSecurity
+  url: security/carnot-fleet-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
